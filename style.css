@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.top{
+    background-color: black;
+     /* background-image: url(5.jpg); */
+    height:fit-content;
+    font-size:medium;
+    max-width: 100dvw; 
+    /* background-color: black; */
+    background-size: cover;
+}
+
+.first{
+    padding-top: 70px;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.first1{
+    padding-top: 45px;
+    padding-right: 10%;
+    padding-bottom: 10%;
+   
+}
+
+/* Navbar */
+.c-1{
+    text-shadow: 1px 2px rgb(204, 13, 51);
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    
+}
+.navbar-nav{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbrand{
+    color:rgb(243, 7, 54);
+    cursor: pointer;
+}
+.nav-link{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: rgb(204, 13, 51);
+    cursor: pointer;
+}
+.navbar-nav .actives
+{
+    color: rgb(204, 13, 51);
+    border-bottom: 2px solid rgb(204, 13, 51);
+}
+/* Main content */
+
+.name1{
+    font-size:xx-large;
+    font-weight: bold;
+    color: rgb(204, 13, 51);
+}
+
+/* Main image section */
+.boxmain{
+    background-color:transparent;
+    height: 415px;
+    width: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.box1main{
+    animation: ani infinite 5s;
+    height: 414px;
+    width: 414px;
+    position: relative;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(255, 0, 51),black,black,rgb(255, 0, 51));
+}
+.box2main{
+    background-image:url('images/sk1.jpeg') ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+.fimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.contact{
+    background-color:black;
+   padding: 5%;
+   padding-top: 7%;
+   position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+}
+.hr{
+    color: white;
+}
+#about{
+    /* border-top: 3px solid rgb(66, 1, 14); */
+    background-color:black;
+    
+}
+.skill
+{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height:100vh;
+    padding: 70px 5% 20px;
+}
+
+.am
+{
+    height: 420px;
+    border-radius: 50px;
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    transition: 3s;
+   opacity: 80%;
+}
+.am:hover{
+    opacity: 1;
+}
+.edunm
+{
+    color:rgb(204, 13, 51) ;
+    margin: 10px;
+    text-align: center;
+
+    /* text-shadow: 2px 0px 1px white; */
+}
+.active
+{
+    color:rgb(204, 13, 51) ;
+    border-bottom: 1px solid rgb(204, 13, 51);
+}
+.edunm:hover
+{
+    color:rgb(204, 13, 51) ;
+}
+.boxed
+{
+    margin: 5%;
+    width: 90%;
+    max-height: max-content;
+    border: 2px solid white;
+}
+.edutt{
+    /* color:rgb(0, 255, 242) ; */
+    color: #f8952b;
+}
+.eduyy,.edupp,.educc{
+    color: whitesmoke;
+}
+
+.about-para{
+    text-align: justify;
+}
+
+/* skills set */
+.box
+{
+    width: 100%;
+    height: 5px;
+    /* border-radius: 5px; */
+    background-color: white;
+    overflow: hidden;
+}
+
+.box-html
+{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 0, 51);
+    animation-delay: 1s;
+    animation: html 1.4s linear;
+    transition:1s;
+    
+}
+.box-css
+{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(255, 1, 52);
+    animation-delay: 1s;
+    animation: html 1.4s linear;
+    transition:1s;
+    
+}
+.box-js
+{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 0, 51);
+    animation-delay: 1s;
+    animation: html 1.4s linear;
+    transition:1s;
+    
+}
+.box-py
+{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 0, 51);
+    animation-delay: 1s;
+    animation: html 1.4s linear;
+    transition:1s;
+    
+}
+.box-bs{
+    width: 93%;
+    height: 100%;
+    background-color: rgb(255, 0, 51);
+    animation-delay: 1s;
+    animation: html 1.4s linear;
+    transition:1s;
+    
+}
+.box-sql
+{
+    width: 85%;
+    height: 100%;
+    background-color: rgb(255, 0, 51);
+    animation-delay: 1s;
+    animation: html 1.4s linear;
+    transition:1s;
+    
+}
+.box-java{
+    width: 65%;
+    height: 100%;
+    background-color: rgb(255, 0, 51);
+    animation-delay: 1s;
+    animation: html 1.4s linear;
+    transition:1s;
+    
+}
+
+
+
+@keyframes html
+{
+    from
+    {
+        transform: translateX(-400px);
+    }
+    to 
+    {
+        transform: translateX(0px);
+    }
+}
+/* Break points */
+
+@media (min-width:256px) {
+    .nav-link{
+        text-align: center;
+    }
+    .contact,.about{
+        background-color:black;
+        padding: 5%;
+        width: 100%;
+       background-size: cover;
+    }
+    .about-para{
+        text-align: justify;
+    }
+    
+}
+@media (min-width:576px) {
+    /* .box-ph{
+        box-shadow: 10px 10px 15px 10px rgb(48, 16, 16);
+    } */
+    .contact,.about{
+        background-color:black;
+       padding: 50px;
+       padding-top: 7%;
+        width: 100%;
+        background-size: contain;
+    }
+    .boxed
+    {
+        margin: 20px;
+        width: 90%;
+        height: 500px;
+        border: 1px solid white;
+    }
+  
+    .am{
+        margin-top: 20px;
+        /* height: 90%;
+        width: 70%; */
+        margin-bottom: 20px;
+    }
+    .about-para{
+        text-align: justify;
+    }
+    
+ 
+}
+  @media (max-width:576px) {
+    .contact,.about{
+        text-align: center;
+    }
+    .about-para{
+        text-align: justify;
+    }
+    .am{
+        margin-top: 20px;
+        height: 90%;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    #about
+   {
+    min-height:200vh; 
+   } 
+   .boxed
+   {
+    width: 90%;
+    height: 400px;
+    margin: 20px;
+   }
+   .boxmain{
+    background-color:transparent;
+    height: 272px;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.fimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.box2main{
+    background-image:url('images/sk1.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 260px;
+    position: absolute;
+    border-radius: 50%;
+}
+.box1main{
+    animation: ani infinite 3s;
+    height: 270px;
+    width: 270px;
+    position: relative;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(255, 0, 51),black,black,rgb(255, 0, 51));
+}
+.anim{
+    border-radius: 80%;
+    height: 315px;
+   
+    width: 340px;
+    transition: 1s;
+    
+}
+}  
+@media (min-width:992px) {
+    /* .box-ph{
+        box-shadow: 10px 10px 15px 10px rgb(48, 16, 16);
+    } */
+     
+    .contact,.about{
+        background-color:black;
+       padding: 4%;
+       padding-top: 7%;
+    width: 100%;
+    }
+}
+
+
+/* For rounded circle */
+
+.circles{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+ }
+
+ .circles .circle{
+    width: 50%;
+    height: 170px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+ }
+ .circles .circle svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+ }
+ .circles .circle .c-bar{
+    stroke-width: 10;
+    stroke: white;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+ }
+ @keyframes animate-bar{
+    100%{
+        stroke-dashoffset:-1 ;
+    }
+ }
+ /* Animation for main photo */
+ @keyframes ani{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(720deg);
+    }
+}
+ .path{
+    stroke-width: 10;
+    stroke: rgb(255, 0, 51);
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+ }
+ .path-1{animation: animate-path1 1s 1s linear forwards;}
+ .path-2{animation: animate-path2 1s 1s linear forwards;}
+ .path-3{animation: animate-path3 1s 1s linear forwards;}
+ .path-4{animation: animate-path4 1s 1s linear forwards;}
+ .path-5{animation: animate-path4 1s 1s linear forwards;}
+
+ @keyframes animate-path1{
+    100%{
+        stroke-dashoffset:50 ;
+    }
+ }
+ @keyframes animate-path2{
+    100%{
+        stroke-dashoffset:175 ;
+    }
+ }
+ @keyframes animate-path3{
+    100%{
+        stroke-dashoffset:125 ;
+    }
+ }
+ @keyframes animate-path4{
+    100%{
+        stroke-dashoffset:75 ;
+    }
+ }
+
+.circle .percentage{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.c-bar .text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 0;
+}
+@keyframes showtext{
+    100%{
+        opacity:1;
+    }
+}
+.text,.percentage{
+    color: white;
+}
+
+.per{
+    transform:translate(-50%, -50%);
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.resume-bt{
+    background-color: rgb(204, 13, 51);
+}
+.res-c{
+    color: black;
+}
+
+.resume-bt:hover{
+    background-color: rgb(204, 13, 51);
+    box-shadow: 1px 1px 10px 5px rgb(204, 13, 51);
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar
+{
+    background-color: white;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(255, 0, 51);
+    height: 5px;
+    border-radius: 5px;
+}  
+
+
+
+.fab{
+    align-content: center;
+    background-color: rgb(255, 0, 51);
+    padding: 10px;
+    color: white;
+   border-radius: 50%;
+   justify-content: center;
+}
+
+.fab:hover{
+    background-color: white;
+    color: rgb(255, 0, 51); 
+}
+.f1:hover{
+    fill: rgb(255, 0, 51);
+}
+.logo1
+{
+    display: flex;
+    flex-direction: row;
+}
+.fo{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.582);
+    bottom: 15px;
+    padding: 5px;
+    left: 0;
+}
+
+#closeButton
+{
+    margin-top: -50px;
+}
